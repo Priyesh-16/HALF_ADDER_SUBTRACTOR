@@ -48,14 +48,26 @@ Figure -02 HALF Subtractor
 5.	For different input combinations generate the timing diagram.
 
 
-**Program:**
+**Program:** i) HALF ADDER
+module ha(a,b,sum,carry); input a,b; output sum,carry; assign sum= (a ^ b); assign carry= ( a & b); endmodule
 
+ii)HALF SUBTRACTOR
+
+module hs(a,b,difference,borrow); input a,b; output difference,borrow; assign difference= (a ^ b); assign borrow= ( ~a & b); endmodule
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
 Developed by: RegisterNumber:*/
 
 **RTL Schematic**
 
+![393121130-9ec0ac4a-d5ee-40d5-8702-ff9ff6dea259](https://github.com/user-attachments/assets/263a9691-fb3c-486a-a6ab-a95db52c014e)
+
+
 **Output/TIMING Waveform**
 
+![393120478-ecd05ff6-4981-4658-9356-0c255210b533](https://github.com/user-attachments/assets/f1db4607-d777-4368-a797-64e768e5e95b)
+
+
 **Result:**
+
+thus design a half adder and half subtractor circuit and verify its truth table in Quartus using Verilog programming are verified
