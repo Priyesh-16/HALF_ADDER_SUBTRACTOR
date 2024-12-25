@@ -34,6 +34,10 @@ Borrow = A’B
 Figure -02 HALF Subtractor
 
 **Truthtable**
+  
+  
+   ![393119741-11a448a3-6ba1-43ff-8134-fa3907090d09](https://github.com/user-attachments/assets/7f880d6b-5768-4926-8758-61996a95e1ba)
+  ![393119882-5e9b1667-da28-4671-a38e-8bf392adfd5d](https://github.com/user-attachments/assets/77a39b05-a0de-47d0-bb1b-1d9ff26585c3)
 
 **Procedure**
 
@@ -56,8 +60,11 @@ ii)HALF SUBTRACTOR
 module hs(a,b,difference,borrow); input a,b; output difference,borrow; assign difference= (a ^ b); assign borrow= ( ~a & b); endmodule
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
+Developed by : priyesh.S 
 
+
+RegisterNumber:24008184
+ 
 **RTL Schematic**
 
 ![393121130-9ec0ac4a-d5ee-40d5-8702-ff9ff6dea259](https://github.com/user-attachments/assets/263a9691-fb3c-486a-a6ab-a95db52c014e)
